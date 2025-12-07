@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rw/can_control/can_control/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rw/can_control/build/can_control
+[ 33%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/usb_can_v2.cc.o[0m
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:1:10:[m[K [01;31m[Kfatal error: [m[Kusb_can_v2.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"usb_can_v2.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/can_control.dir/build.make:76：CMakeFiles/can_control.dir/src/can_control.cc.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:[m[K In constructor ‘[01m[Kusb_can_v2::usb_can_v2()[m[K’:
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:75:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   75 |         [01;35m[K.[m[KdwDTERate = 4000000,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:76:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   76 |         [01;35m[K.[m[KbCharFormat = 0,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:77:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   77 |         [01;35m[K.[m[KbParityType = 0,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:78:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   78 |         [01;35m[K.[m[KbDataBits = 8
+      |         [01;35m[K^[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/can_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

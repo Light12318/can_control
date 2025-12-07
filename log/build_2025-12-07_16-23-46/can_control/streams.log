@@ -1,0 +1,50 @@
+[0.007s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control
+[0.016s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.088s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.102s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.103s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.106s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.131s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.131s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.140s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.163s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.170s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.183s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.237s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.237s] -- Configured cppcheck include dirs: /home/rw/can_control/can_control/include
+[0.237s] -- Configured cppcheck exclude dirs and/or files: 
+[0.237s] -- Added test 'lint_cmake' to check CMake code style
+[0.238s] -- Added test 'uncrustify' to check C / C++ code style
+[0.238s] -- Configured uncrustify additional arguments: 
+[0.238s] -- Added test 'xmllint' to check XML markup files
+[0.238s] -- Configuring done
+[0.243s] -- Generating done
+[0.244s] -- Build files have been written to: /home/rw/can_control/build/can_control
+[0.249s] Invoked command in '/home/rw/can_control/build/can_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control
+[0.250s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28
+[0.281s] [ 33%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[0.282s] [ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/usb_can_v2.cc.o[0m
+[0.287s] [01m[K/home/rw/can_control/can_control/src/can_control.cc:1:10:[m[K [01;31m[Kfatal error: [m[Kusb_can_v2.hpp: 没有那个文件或目录
+[0.287s]     1 | #include [01;31m[K"usb_can_v2.hpp"[m[K
+[0.287s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.288s] compilation terminated.
+[0.288s] gmake[2]: *** [CMakeFiles/can_control.dir/build.make:76：CMakeFiles/can_control.dir/src/can_control.cc.o] 错误 1
+[0.288s] gmake[2]: *** 正在等待未完成的任务....
+[0.473s] [01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:[m[K In constructor ‘[01m[Kusb_can_v2::usb_can_v2()[m[K’:
+[0.473s] [01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:75:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.473s]    75 |         [01;35m[K.[m[KdwDTERate = 4000000,
+[0.473s]       |         [01;35m[K^[m[K
+[0.473s] [01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:76:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.473s]    76 |         [01;35m[K.[m[KbCharFormat = 0,
+[0.473s]       |         [01;35m[K^[m[K
+[0.473s] [01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:77:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.473s]    77 |         [01;35m[K.[m[KbParityType = 0,
+[0.473s]       |         [01;35m[K^[m[K
+[0.473s] [01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:78:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.473s]    78 |         [01;35m[K.[m[KbDataBits = 8
+[0.473s]       |         [01;35m[K^[m[K
+[0.589s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/can_control.dir/all] 错误 2
+[0.589s] gmake: *** [Makefile:146：all] 错误 2
+[0.591s] Invoked command in '/home/rw/can_control/build/can_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28

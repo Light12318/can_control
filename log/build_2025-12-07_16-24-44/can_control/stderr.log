@@ -1,0 +1,79 @@
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:[m[K In constructor ‘[01m[KOmniWheelController::OmniWheelController()[m[K’:
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:67:37:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kusb_can_v2& usb_can_v2::operator=(const usb_can_v2&)[m[K’
+   67 |             can_device = usb_can_v2([01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:25:7:[m[K [01;36m[Knote: [m[K‘[01m[Kusb_can_v2& usb_can_v2::operator=(const usb_can_v2&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+   25 | class [01;36m[Kusb_can_v2[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:25:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::thread& std::thread::operator=(const std::thread&)[m[K’
+In file included from [01m[K/usr/include/c++/11/thread:43[m[K,
+                 from [01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:10[m[K,
+                 from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/usr/include/c++/11/bits/std_thread.h:160:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  160 |     thread& [01;36m[Koperator[m[K=(const thread&) = delete;
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:25:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::atomic<bool>& std::atomic<bool>::operator=(const std::atomic<bool>&)[m[K’
+   25 | class [01;31m[Kusb_can_v2[m[K
+      |       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:12[m[K,
+                 from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/usr/include/c++/11/atomic:73:13:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     atomic& [01;36m[Koperator[m[K=(const atomic&) = delete;
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:70:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K’ to ‘[01m[Kvoid (*)(uint16_t, uint8_t*, int)[m[K’ {aka ‘[01m[Kvoid (*)(short unsigned int, unsigned char*, int)[m[K’}
+   70 |             can_device.listen(0x201, [01;31m[Kstd::bind(&OmniWheelController::canCallback, this,[m[K
+      |                                      [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K
+   71 | [01;31m[K                std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)[m[K);
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:132:36:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint usb_can_v2::listen(uint16_t, void (*)(uint16_t, uint8_t*, int))[m[K’
+  132 |     int listen(uint16_t id, [01;36m[Kvoid (*callback)(uint16_t id, uint8_t* data, int length)[m[K);
+      |                             [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:72:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K’ to ‘[01m[Kvoid (*)(uint16_t, uint8_t*, int)[m[K’ {aka ‘[01m[Kvoid (*)(short unsigned int, unsigned char*, int)[m[K’}
+   72 |             can_device.listen(0x202, [01;31m[Kstd::bind(&OmniWheelController::canCallback, this,[m[K
+      |                                      [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K
+   73 | [01;31m[K                std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)[m[K);
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:132:36:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint usb_can_v2::listen(uint16_t, void (*)(uint16_t, uint8_t*, int))[m[K’
+  132 |     int listen(uint16_t id, [01;36m[Kvoid (*callback)(uint16_t id, uint8_t* data, int length)[m[K);
+      |                             [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:74:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K’ to ‘[01m[Kvoid (*)(uint16_t, uint8_t*, int)[m[K’ {aka ‘[01m[Kvoid (*)(short unsigned int, unsigned char*, int)[m[K’}
+   74 |             can_device.listen(0x203, [01;31m[Kstd::bind(&OmniWheelController::canCallback, this,[m[K
+      |                                      [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K
+   75 | [01;31m[K                std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)[m[K);
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:132:36:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint usb_can_v2::listen(uint16_t, void (*)(uint16_t, uint8_t*, int))[m[K’
+  132 |     int listen(uint16_t id, [01;36m[Kvoid (*callback)(uint16_t id, uint8_t* data, int length)[m[K);
+      |                             [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:76:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K’ to ‘[01m[Kvoid (*)(uint16_t, uint8_t*, int)[m[K’ {aka ‘[01m[Kvoid (*)(short unsigned int, unsigned char*, int)[m[K’}
+   76 |             can_device.listen(0x204, [01;31m[Kstd::bind(&OmniWheelController::canCallback, this,[m[K
+      |                                      [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kstd::_Bind_helper<false, void (OmniWheelController::*)(short unsigned int, unsigned char*, int), OmniWheelController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&>::type[m[K
+   77 | [01;31m[K                std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)[m[K);
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rw/can_control/can_control/src/can_control.cc:1[m[K:
+[01m[K/home/rw/can_control/can_control/include/can_control/usb_can_v2.hpp:132:36:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint usb_can_v2::listen(uint16_t, void (*)(uint16_t, uint8_t*, int))[m[K’
+  132 |     int listen(uint16_t id, [01;36m[Kvoid (*callback)(uint16_t id, uint8_t* data, int length)[m[K);
+      |                             [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:[m[K In member function ‘[01m[Kvoid OmniWheelController::canCallback(uint16_t, uint8_t*, int)[m[K’:
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:123:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     void canCallback(uint16_t id, uint8_t* data, [01;35m[Kint length[m[K)
+      |                                                  [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:[m[K In member function ‘[01m[Kvoid OmniWheelController::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:237:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  237 |     void imuCallback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr msg[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/can_control.dir/build.make:76：CMakeFiles/can_control.dir/src/can_control.cc.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/can_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

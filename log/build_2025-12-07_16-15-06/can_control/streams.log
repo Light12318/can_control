@@ -1,0 +1,22 @@
+[0.005s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control
+[0.013s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.083s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.096s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.097s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.100s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.114s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.129s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.130s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.138s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.162s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.171s] -- Configuring incomplete, errors occurred!
+[0.171s] See also "/home/rw/can_control/build/can_control/CMakeFiles/CMakeOutput.log".
+[0.171s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.171s]   ament_target_dependencies() the passed package name 'sensor_msgs' was not
+[0.171s]   found before
+[0.171s] Call Stack (most recent call first):
+[0.171s]   CMakeLists.txt:29 (ament_target_dependencies)
+[0.171s] 
+[0.171s] [0m
+[0.175s] Invoked command in '/home/rw/can_control/build/can_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control

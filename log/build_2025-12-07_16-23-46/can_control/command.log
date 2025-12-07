@@ -1,0 +1,4 @@
+Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control
+Invoked command in '/home/rw/can_control/build/can_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control
+Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28
+Invoked command in '/home/rw/can_control/build/can_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28

@@ -1,0 +1,35 @@
+[0.005s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control
+[0.013s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.083s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.097s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.098s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.101s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.111s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.126s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.127s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.135s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.159s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.167s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.179s] [31mCMake Error at CMakeLists.txt:39 (target_link_libraries):
+[0.179s]   The plain signature for target_link_libraries has already been used with
+[0.179s]   the target "can_control".  All uses of target_link_libraries with a target
+[0.179s]   must be either all-keyword or all-plain.
+[0.179s] 
+[0.179s]   The uses of the plain signature are here:
+[0.180s] 
+[0.180s]    * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)
+[0.180s] 
+[0.180s] 
+[0.180s] [0m
+[0.180s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.239s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.239s] -- Configured cppcheck include dirs: /home/rw/can_control/can_control/include
+[0.239s] -- Configured cppcheck exclude dirs and/or files: 
+[0.240s] -- Added test 'lint_cmake' to check CMake code style
+[0.240s] -- Added test 'uncrustify' to check C / C++ code style
+[0.240s] -- Configured uncrustify additional arguments: 
+[0.240s] -- Added test 'xmllint' to check XML markup files
+[0.241s] -- Configuring incomplete, errors occurred!
+[0.241s] See also "/home/rw/can_control/build/can_control/CMakeFiles/CMakeOutput.log".
+[0.245s] Invoked command in '/home/rw/can_control/build/can_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rw/can_control/can_control -DCMAKE_INSTALL_PREFIX=/home/rw/can_control/install/can_control
