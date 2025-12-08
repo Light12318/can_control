@@ -1,5 +1,6 @@
 /home/rw/can_control/install/can_control/lib/can_control/can_control
 /home/rw/can_control/install/can_control/include/can_control/usb_can_v2.hpp
+/home/rw/can_control/install/can_control/share/can_control/launch/can_control_launch.py
 /home/rw/can_control/install/can_control/share/ament_index/resource_index/package_run_dependencies/can_control
 /home/rw/can_control/install/can_control/share/ament_index/resource_index/parent_prefix_path/can_control
 /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.sh

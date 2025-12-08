@@ -171,9 +171,20 @@ int usb_can_v2::transmit(uint16_t id, uint8_t* data, int length)
 }
 
 int usb_can_v2::listen(uint16_t id, void (*callback)(uint16_t id, uint8_t* data, int length))
-{    
+{
     if(id > 0x7FF) return USB_CAN_INVALID_ID;
     if(callback == NULL) return USB_CAN_NULL_PTR;
     rx_callback_map.insert_or_assign(id, callback);
     return USB_CAN_OK;
+}
+
+// 状态查询实现
+bool usb_can_v2::ok() const
+{
+    return (usb_can_error == USB_CAN_OK && handle != nullptr);
+}
+
+int usb_can_v2::error_code() const
+{
+    return static_cast<int>(usb_can_error);
 }

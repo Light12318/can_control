@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target can_control[0m
+[0.048s] [ 33%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[5.338s] [ 66%] [32m[1mLinking CXX executable can_control[0m
+[5.622s] [100%] Built target can_control
+[5.631s] Invoked command in '/home/rw/can_control/build/can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28
+[5.636s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rw/can_control/build/can_control
+[5.641s] -- Install configuration: ""
+[5.641s] -- Installing: /home/rw/can_control/install/can_control/lib/can_control/can_control
+[5.644s] -- Set runtime path of "/home/rw/can_control/install/can_control/lib/can_control/can_control" to ""
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/include
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/include/can_control
+[5.644s] -- Installing: /home/rw/can_control/install/can_control/include/can_control/usb_can_v2.hpp
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch/can_control_launch.py
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/package_run_dependencies/can_control
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/parent_prefix_path/can_control
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.sh
+[5.644s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.dsv
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.sh
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.dsv
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.bash
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.sh
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.zsh
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.dsv
+[5.645s] -- Installing: /home/rw/can_control/install/can_control/share/can_control/package.dsv
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/packages/can_control
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig.cmake
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig-version.cmake
+[5.645s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/package.xml
+[5.646s] Invoked command in '/home/rw/can_control/build/can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rw/can_control/build/can_control

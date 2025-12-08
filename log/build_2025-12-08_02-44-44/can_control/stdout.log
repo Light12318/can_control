@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target can_control[0m
+[100%] Built target can_control
+-- Install configuration: ""
+-- Up-to-date: /home/rw/can_control/install/can_control/lib/can_control/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/include
+-- Up-to-date: /home/rw/can_control/install/can_control/include/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/include/can_control/usb_can_v2.hpp
+-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/package_run_dependencies/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/parent_prefix_path/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.sh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.dsv
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.bash
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.sh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.zsh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.dsv
+-- Installing: /home/rw/can_control/install/can_control/share/can_control/package.dsv
+-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/packages/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig.cmake
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig-version.cmake
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/package.xml

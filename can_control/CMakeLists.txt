@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.8)
 project(can_control)
 
+# ensure C++20
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
@@ -44,6 +49,11 @@ install(TARGETS can_control
 
 install(DIRECTORY include/
   DESTINATION include
+)
+
+install(DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+  FILES_MATCHING PATTERN "*.py"
 )
 
 if(BUILD_TESTING)

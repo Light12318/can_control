@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target can_control[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:[m[K In constructor ‘[01m[KOmniWheelController::OmniWheelController()[m[K’:
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:71:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass usb_can_v2[m[K’ has no member named ‘[01m[Kis_ok[m[K’
+   71 |         if (!can_device.[01;31m[Kis_ok[m[K()) {
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:72:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass usb_can_v2[m[K’ has no member named ‘[01m[Kget_error[m[K’
+   72 |             int err = can_device.[01;31m[Kget_error[m[K();
+      |                                  [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/can_control.dir/build.make:76：CMakeFiles/can_control.dir/src/can_control.cc.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/can_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

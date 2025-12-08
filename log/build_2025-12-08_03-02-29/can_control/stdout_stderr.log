@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target can_control[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/usb_can_v2.cc.o[0m
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:[m[K In constructor ‘[01m[Kusb_can_v2::usb_can_v2()[m[K’:
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:75:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   75 |         [01;35m[K.[m[KdwDTERate = 4000000,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:76:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   76 |         [01;35m[K.[m[KbCharFormat = 0,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:77:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   77 |         [01;35m[K.[m[KbParityType = 0,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:78:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   78 |         [01;35m[K.[m[KbDataBits = 8
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:[m[K In constructor ‘[01m[KOmniWheelController::OmniWheelController()[m[K’:
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:71:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass usb_can_v2[m[K’ has no member named ‘[01m[Kis_ok[m[K’
+   71 |         if (!can_device.[01;31m[Kis_ok[m[K()) {
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/rw/can_control/can_control/src/can_control.cc:72:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass usb_can_v2[m[K’ has no member named ‘[01m[Kget_error[m[K’
+   72 |             int err = can_device.[01;31m[Kget_error[m[K();
+      |                                  [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/can_control.dir/build.make:76：CMakeFiles/can_control.dir/src/can_control.cc.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/can_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

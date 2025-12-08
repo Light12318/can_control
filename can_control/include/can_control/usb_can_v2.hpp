@@ -130,6 +130,10 @@ public:
     ~usb_can_v2();
     int transmit(uint16_t id, uint8_t* data, int length);
     int listen(uint16_t id, void (*callback)(uint16_t id, uint8_t* data, int length));
+
+    // 状态查询：初始化是否成功，和错误码
+    bool ok() const;
+    int error_code() const;
 };
 
 #endif

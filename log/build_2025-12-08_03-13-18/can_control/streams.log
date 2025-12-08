@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28
+[0.021s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.094s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.108s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.109s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.112s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.137s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.137s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.145s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.168s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.174s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.187s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.237s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.237s] -- Configured cppcheck include dirs: /home/rw/can_control/can_control/include
+[0.238s] -- Configured cppcheck exclude dirs and/or files: 
+[0.238s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.238s] -- Added test 'lint_cmake' to check CMake code style
+[0.238s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.239s] -- Added test 'uncrustify' to check C / C++ code style
+[0.239s] -- Configured uncrustify additional arguments: 
+[0.239s] -- Added test 'xmllint' to check XML markup files
+[0.240s] -- Configuring done
+[0.244s] -- Generating done
+[0.245s] -- Build files have been written to: /home/rw/can_control/build/can_control
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target can_control[0m
+[0.273s] [ 33%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[0.273s] [ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/usb_can_v2.cc.o[0m
+[5.585s] [100%] [32m[1mLinking CXX executable can_control[0m
+[5.858s] [100%] Built target can_control
+[5.868s] Invoked command in '/home/rw/can_control/build/can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28
+[5.875s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rw/can_control/build/can_control
+[5.880s] -- Install configuration: ""
+[5.880s] -- Installing: /home/rw/can_control/install/can_control/lib/can_control/can_control
+[5.883s] -- Set runtime path of "/home/rw/can_control/install/can_control/lib/can_control/can_control" to ""
+[5.883s] -- Up-to-date: /home/rw/can_control/install/can_control/include
+[5.883s] -- Up-to-date: /home/rw/can_control/install/can_control/include/can_control
+[5.883s] -- Up-to-date: /home/rw/can_control/install/can_control/include/can_control/usb_can_v2.hpp
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch/can_control_launch.py
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/package_run_dependencies/can_control
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/parent_prefix_path/can_control
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.sh
+[5.884s] -- Installing: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.dsv
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.sh
+[5.884s] -- Installing: /home/rw/can_control/install/can_control/share/can_control/environment/path.dsv
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.bash
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.sh
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.zsh
+[5.884s] -- Installing: /home/rw/can_control/install/can_control/share/can_control/local_setup.dsv
+[5.884s] -- Installing: /home/rw/can_control/install/can_control/share/can_control/package.dsv
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/packages/can_control
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig.cmake
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig-version.cmake
+[5.884s] -- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/package.xml
+[5.885s] Invoked command in '/home/rw/can_control/build/can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rw/can_control/build/can_control

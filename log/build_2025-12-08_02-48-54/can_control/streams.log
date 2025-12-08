@@ -1,0 +1,9 @@
+[0.006s] Invoking command in '/home/rw/can_control/build/can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28
+[0.021s] -- Configuring incomplete, errors occurred!
+[0.021s] See also "/home/rw/can_control/build/can_control/CMakeFiles/CMakeOutput.log".
+[0.021s] [31mCMake Error at CMakeLists.txt:54:
+[0.021s]   Parse error.  Expected a newline, got identifier with text "D_TESTING".
+[0.021s] 
+[0.021s] [0m
+[0.021s] gmake: *** [Makefile:294：cmake_check_build_system] 错误 1
+[0.023s] Invoked command in '/home/rw/can_control/build/can_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rw/can_control/build/can_control -- -j28 -l28

@@ -1,0 +1,40 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/usb_can_v2.cc.o[0m
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:[m[K In constructor ‘[01m[Kusb_can_v2::usb_can_v2()[m[K’:
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:75:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   75 |         [01;35m[K.[m[KdwDTERate = 4000000,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:76:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   76 |         [01;35m[K.[m[KbCharFormat = 0,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:77:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   77 |         [01;35m[K.[m[KbParityType = 0,
+      |         [01;35m[K^[m[K
+[01m[K/home/rw/can_control/can_control/src/usb_can_v2.cc:78:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   78 |         [01;35m[K.[m[KbDataBits = 8
+      |         [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable can_control[0m
+[100%] Built target can_control
+-- Install configuration: ""
+-- Installing: /home/rw/can_control/install/can_control/lib/can_control/can_control
+-- Set runtime path of "/home/rw/can_control/install/can_control/lib/can_control/can_control" to ""
+-- Up-to-date: /home/rw/can_control/install/can_control/include
+-- Up-to-date: /home/rw/can_control/install/can_control/include/can_control
+-- Installing: /home/rw/can_control/install/can_control/include/can_control/usb_can_v2.hpp
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch/can_control_launch.py
+-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/package_run_dependencies/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/parent_prefix_path/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.sh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.dsv
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.bash
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.sh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.zsh
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.dsv
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/package.dsv
+-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/packages/can_control
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig.cmake
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig-version.cmake
+-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/package.xml

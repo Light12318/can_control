@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target can_control[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/can_control.dir/src/usb_can_v2.cc.o[0m

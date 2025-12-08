@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (can_control) JobQueued: {'identifier': 'can_control', 'dependencies': OrderedDict()}
+[0.000292] (can_control) JobStarted: {'identifier': 'can_control'}
+[0.004427] (can_control) JobProgress: {'identifier': 'can_control', 'progress': 'cmake'}
+[0.004964] (can_control) JobProgress: {'identifier': 'can_control', 'progress': 'build'}
+[0.005503] (can_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rw/can_control/build/can_control', '--', '-j28', '-l28'], 'cwd': '/home/rw/can_control/build/can_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'rw'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/rw'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('COMET_WORKSPACE', 'light12318'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '6402'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568da556a4329a7adfeda72269362c99'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/rw/miniconda3'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/rw/can_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rw'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rw/miniconda3/bin:/home/rw/miniconda3/condabin:/home/rw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/light1231:@/tmp/.ICE-unix/6402,unix/light1231:/tmp/.ICE-unix/6402'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('COMET_API_KEY', 'Iv8K7K3FPrHOKdIFiExR5jmgB'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7db13dc_a67b_4ef0_9cb0_ac26dd27231d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rw/can_control/install/can_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/rw/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rw/can_control/build/can_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rw/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568da556a4329a7adfeda72269362c99'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/rw/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rw/can_control/install/can_control:/opt/ros/humble')]), 'shell': False}
+[0.044567] (can_control) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/can_control.dir/src/can_control.cc.o\x1b[0m\n'}
+[0.044715] (can_control) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/can_control.dir/src/usb_can_v2.cc.o\x1b[0m\n'}
+[0.099533] (-) TimerEvent: {}
+[0.199736] (-) TimerEvent: {}
+[0.235009] (can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rw/can_control/can_control/src/usb_can_v2.cc:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kusb_can_v2::usb_can_v2()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.235137] (can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rw/can_control/can_control/src/usb_can_v2.cc:75:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.235169] (can_control) StderrLine: {'line': b'   75 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KdwDTERate = 4000000,\n'}
+[0.235192] (can_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.235213] (can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rw/can_control/can_control/src/usb_can_v2.cc:76:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.235235] (can_control) StderrLine: {'line': b'   76 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KbCharFormat = 0,\n'}
+[0.235255] (can_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.235275] (can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rw/can_control/can_control/src/usb_can_v2.cc:77:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.235297] (can_control) StderrLine: {'line': b'   77 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KbParityType = 0,\n'}
+[0.235317] (can_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.235336] (can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rw/can_control/can_control/src/usb_can_v2.cc:78:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.235356] (can_control) StderrLine: {'line': b'   78 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KbDataBits = 8\n'}
+[0.235373] (can_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.299823] (-) TimerEvent: {}
+[0.400092] (-) TimerEvent: {}
+[0.500427] (-) TimerEvent: {}
+[0.600679] (-) TimerEvent: {}
+[0.700920] (-) TimerEvent: {}
+[0.801255] (-) TimerEvent: {}
+[0.901561] (-) TimerEvent: {}
+[1.001891] (-) TimerEvent: {}
+[1.102196] (-) TimerEvent: {}
+[1.202499] (-) TimerEvent: {}
+[1.302833] (-) TimerEvent: {}
+[1.403142] (-) TimerEvent: {}
+[1.503448] (-) TimerEvent: {}
+[1.603664] (-) TimerEvent: {}
+[1.703902] (-) TimerEvent: {}
+[1.804217] (-) TimerEvent: {}
+[1.904611] (-) TimerEvent: {}
+[2.004838] (-) TimerEvent: {}
+[2.105153] (-) TimerEvent: {}
+[2.205466] (-) TimerEvent: {}
+[2.305893] (-) TimerEvent: {}
+[2.406166] (-) TimerEvent: {}
+[2.506478] (-) TimerEvent: {}
+[2.606711] (-) TimerEvent: {}
+[2.706965] (-) TimerEvent: {}
+[2.807273] (-) TimerEvent: {}
+[2.907576] (-) TimerEvent: {}
+[3.007799] (-) TimerEvent: {}
+[3.108006] (-) TimerEvent: {}
+[3.208227] (-) TimerEvent: {}
+[3.308447] (-) TimerEvent: {}
+[3.408641] (-) TimerEvent: {}
+[3.508885] (-) TimerEvent: {}
+[3.609099] (-) TimerEvent: {}
+[3.709322] (-) TimerEvent: {}
+[3.809567] (-) TimerEvent: {}
+[3.909810] (-) TimerEvent: {}
+[4.010036] (-) TimerEvent: {}
+[4.110261] (-) TimerEvent: {}
+[4.210555] (-) TimerEvent: {}
+[4.310757] (-) TimerEvent: {}
+[4.410981] (-) TimerEvent: {}
+[4.511269] (-) TimerEvent: {}
+[4.611571] (-) TimerEvent: {}
+[4.711782] (-) TimerEvent: {}
+[4.812005] (-) TimerEvent: {}
+[4.912217] (-) TimerEvent: {}
+[5.012453] (-) TimerEvent: {}
+[5.112700] (-) TimerEvent: {}
+[5.212944] (-) TimerEvent: {}
+[5.313155] (-) TimerEvent: {}
+[5.413391] (-) TimerEvent: {}
+[5.414040] (can_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable can_control\x1b[0m\n'}
+[5.513569] (-) TimerEvent: {}
+[5.613777] (-) TimerEvent: {}
+[5.681240] (can_control) StdoutLine: {'line': b'[100%] Built target can_control\n'}
+[5.689401] (can_control) CommandEnded: {'returncode': 0}
+[5.689821] (can_control) JobProgress: {'identifier': 'can_control', 'progress': 'install'}
+[5.694526] (can_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rw/can_control/build/can_control'], 'cwd': '/home/rw/can_control/build/can_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'rw'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/rw'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('COMET_WORKSPACE', 'light12318'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '6402'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568da556a4329a7adfeda72269362c99'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/rw/miniconda3'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/rw/can_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rw'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rw/miniconda3/bin:/home/rw/miniconda3/condabin:/home/rw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/light1231:@/tmp/.ICE-unix/6402,unix/light1231:/tmp/.ICE-unix/6402'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('COMET_API_KEY', 'Iv8K7K3FPrHOKdIFiExR5jmgB'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7db13dc_a67b_4ef0_9cb0_ac26dd27231d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rw/can_control/install/can_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/rw/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rw/can_control/build/can_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rw/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568da556a4329a7adfeda72269362c99'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/rw/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rw/can_control/install/can_control:/opt/ros/humble')]), 'shell': False}
+[5.700902] (can_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.700966] (can_control) StdoutLine: {'line': b'-- Installing: /home/rw/can_control/install/can_control/lib/can_control/can_control\n'}
+[5.704060] (can_control) StdoutLine: {'line': b'-- Set runtime path of "/home/rw/can_control/install/can_control/lib/can_control/can_control" to ""\n'}
+[5.704132] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/include\n'}
+[5.704160] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/include/can_control\n'}
+[5.704185] (can_control) StdoutLine: {'line': b'-- Installing: /home/rw/can_control/install/can_control/include/can_control/usb_can_v2.hpp\n'}
+[5.704209] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch\n'}
+[5.704233] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/launch/can_control_launch.py\n'}
+[5.704256] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/package_run_dependencies/can_control\n'}
+[5.704279] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/parent_prefix_path/can_control\n'}
+[5.704302] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.sh\n'}
+[5.704325] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/ament_prefix_path.dsv\n'}
+[5.704358] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.sh\n'}
+[5.704403] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/environment/path.dsv\n'}
+[5.704426] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.bash\n'}
+[5.704450] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.sh\n'}
+[5.704471] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.zsh\n'}
+[5.704491] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/local_setup.dsv\n'}
+[5.704512] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/package.dsv\n'}
+[5.704532] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/ament_index/resource_index/packages/can_control\n'}
+[5.704552] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig.cmake\n'}
+[5.704572] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/cmake/can_controlConfig-version.cmake\n'}
+[5.704592] (can_control) StdoutLine: {'line': b'-- Up-to-date: /home/rw/can_control/install/can_control/share/can_control/package.xml\n'}
+[5.705231] (can_control) CommandEnded: {'returncode': 0}
+[5.712476] (can_control) JobEnded: {'identifier': 'can_control', 'rc': 0}
+[5.712957] (-) EventReactorShutdown: {}

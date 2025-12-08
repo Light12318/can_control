@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:54:
+  Parse error.  Expected a newline, got identifier with text "D_TESTING".
+
+[0m
+gmake: *** [Makefile:294：cmake_check_build_system] 错误 1
