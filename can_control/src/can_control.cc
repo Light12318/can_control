@@ -22,10 +22,10 @@ private:
     
     // 运动学矩阵（麦克纳姆轮）
     const double motion_matrix[4][3] = {
-        {-1.0, 1.0, wheel_distance},   // 轮子1：左上45度
-        {-1.0, -1.0, wheel_distance},  // 轮子2：右上45度
-        {1.0, -1.0, wheel_distance},   // 轮子3：右下45度
-        {1.0, 1.0, wheel_distance}     // 轮子4：左下45度
+        {1.0, -1.0, -wheel_distance},   // 轮子1：左上45度
+        {-1.0, -1.0, -wheel_distance},  // 轮子2：右上45度
+        {-1.0, 1.0, -wheel_distance},   // 轮子3：右下45度
+        {1.0, 1.0, -wheel_distance}     // 轮子4：左下45度
     };
     
     // CAN相关：直接作为成员对象（不可拷贝/不可赋值）
